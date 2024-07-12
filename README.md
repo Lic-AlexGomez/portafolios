@@ -4,7 +4,7 @@
 
 | **Nombre y Apellidos** |         **Correo**         |               **GitHub**               |
 | :--------------------: | :------------------------: | :------------------------------------: |
-|  Alex Manuel Gomez Salazar | salsarflaco@gmail.com | [@](https://github.com/) |
+|  Alex Manuel Gomez Salazar | salsarflaco@gmail.com | [@Lic-AlexGomez](https://github.com/Lic-AlexGomez) |
 
 ## Desarrollador Web Front-End
 
@@ -12,7 +12,7 @@ En los equipos de desarrollo, el rol del Front End Developer es uno de los pilar
 
 ## Link
 
-Puedes acceder a él y verlo en la web haciendo click [aquí](https://).
+Puedes acceder a él y verlo en la web haciendo click [aquí]([https://](https://lic-alexgomez.github.io/portafolios/portafolio-es/index.html)).
 
 # portafolios
 # portafolios
