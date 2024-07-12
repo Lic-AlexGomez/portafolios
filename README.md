@@ -12,7 +12,7 @@ En los equipos de desarrollo, el rol del Front End Developer es uno de los pilar
 
 ## Link
 
-Puedes acceder a él y verlo en la web haciendo click [aquí]([https://]((https://lic-alexgomez.github.io/portafolios/portafolio-es/index.html)).
+Puedes acceder a él y verlo en la web haciendo click [aquí]((https://lic-alexgomez.github.io/portafolios/portafolio-es/index.html)).
 
 # portafolios
 # portafolios
