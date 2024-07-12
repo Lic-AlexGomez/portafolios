@@ -445,7 +445,7 @@ h1, h2, h3, h4, h5, h6, p {
 .footer .contenedor .redes-sociales .instagram {
   color: #bc2a8d;
 }
-.footer .contenedor .redes-sociales .twitter {
+.footer .contenedor .redes-sociales .instagram {
   color: #00acee;
 }
 .footer .contenedor .redes-sociales .youtube {
@@ -473,7 +473,7 @@ h1, h2, h3, h4, h5, h6, p {
 .footer .contenedor .redes-sociales .instagram::before {
   background: #bc2a8d;
 }
-.footer .contenedor .redes-sociales .twitter::before {
+.footer .contenedor .redes-sociales .instagram::before {
   background: #00acee;
 }
 .footer .contenedor .redes-sociales .youtube::before {
