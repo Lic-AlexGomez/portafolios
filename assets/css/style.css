@@ -508,7 +508,7 @@ h1, h2, h3, h4, h5, h6, p {
 .main .certificados .contenedor-certificados {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(21.875rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15.875rem, 1fr));
   grid-gap: 2rem;
 }
 .main .certificados .contenedor-certificados img {
