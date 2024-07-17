@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js">
 
-<head lang="es">
+<head lang="en">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,15 +12,44 @@
     <title>Alex Manuel Gomez Salazar | Portafolio</title>
 
     <link rel="shortcut icon" href="../assets/img/icons/app-blue-small.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../assets/css/themify-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
 </head>
 
 <body>
+      <!-- Setting button -->
+  <div class="config">
+    <div class="template-config">
+      <!-- Settings -->
+      <div class="d-block">
+        <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="boton-setting ti-settings"></span></button>
+      </div>
+       
+    </div>
+    <div class="set-menu">
+      <p>Select the language</p>
+      <div class="color-bar" data-toggle="selected">
+        <span class="esp color-item bg-theme-red  .btn-fab"> <a href="../es/index.html"> <img src="../assets/img/español.png" class="bandera active" alt="Español" title="Español"></a></span>
+        <span class="esp color-item bg-theme-red selected"> <a href="en/index.html"><img src="../assets/img/english.png" class="bandera" alt="English" title="Inglés"></a></span>
+      </div>
+      <select class="custom-select" id="change-page">
+        <option value="">Choose Page</option>
+        <option value="index">Topbar</option>
+        <option value="blog-topbar">Blog (Topbar)</option>
+        <option value="index-2">Minibar</option>
+        <option value="blog-minibar">Blog (Minibar)</option>
+      </select>
+    </div>
+  </div>
+  <!-- fin del settings -->
     <nav class="menu">
         <div class="foto">
             <p><img src="../assets/img/foto.jpg" alt="Alex Gomez Salazar" class="foto"></p>
@@ -32,14 +61,6 @@
             <a href="#conocimientos">Skills</a>
             <a href="#certificados">Certificates</a>
             <a href="#contacto">Social networks</a>
-        </div>
-        <div class="idiomas">
-            <div class="esp idioma">
-                <a href="../es/index.html"><img src="../assets/img/español.png" class="bandera" alt="Spanish" title="Spanish"></a>
-            </div>
-            <div class="eng idioma">
-                <img src="../assets/img/english.png" class="bandera active" alt="English" title="English">
-            </div>
         </div>
     </nav>
     <header class="header">
@@ -447,6 +468,10 @@
     </footer>
 
     <script src="" async defer></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/topbar-virtual.js"></script>  
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/lightbox-plus-jquery.min.js"></script>
     <script src="../assets/js/main.js"></script>
