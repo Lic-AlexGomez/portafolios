@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
 .menu .foto img {
-  width: 2.5rem;
+  max-width: 2.5rem;
   border-radius: 50%;
   margin-right: 1.25rem;
 }
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .main .proyectos .contenedor-proyectos .proyecto .info {
   padding: 1rem 0.5rem;
-  height: 10.625rem;
+  min-height: 10.625rem;
   background: #ffffff;
   color: #000000;
   border: 0.125rem solid #969a97;
@@ -404,6 +404,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .main .proyectos .contenedor-proyectos .proyecto .info p .sass {
   color: #CC6699;
+}
+.main .proyectos .contenedor-proyectos .proyecto .info p .ajax {
+  color: #d8d63b;
+}
+.main .proyectos .contenedor-proyectos .proyecto .info p .Jquery {
+  color: #4e0fd7;
 }
 .main .proyectos .contenedor-proyectos .proyecto .info .foto img {
   width: 100%;
